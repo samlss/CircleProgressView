@@ -35,7 +35,7 @@ dependencies {
 | ------------- |:-------------:|
 | circleColor      | set color of the circle |
 | progress | set progress(0-100) |
-| progressColor | set color of the progress turning bar |
+| progressColor | set color of the progress rotating bar |
 | progressTextColor | set the color of progress text |
 | progressTextSize | set the size of progress text |
 
@@ -57,7 +57,7 @@ dependencies {
 ## in java code：
 ```
   circleProgressView.setProgress(int progress); //set the progress, the range is 0-100
-  circleProgressView.setProgressColor(Color.RED); //set color of the progress turning bar
+  circleProgressView.setProgressColor(Color.RED); //set color of the progress rotating bar
   circleProgressView.setProgressTextColor(Color.RED); // set the color of progress text 
   circleProgressView.setProgressTextSize(20); // set the size of progress text
 ```
